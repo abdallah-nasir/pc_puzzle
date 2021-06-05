@@ -79,33 +79,84 @@
 <br>
 
   <!-- ======= Hero Section ======= -->
-  <div class="d-flex justify-content-center container mt-5">
+  <div class="d-flex justify-content-center container mt-5" style="top: -125px;">
     <form class="parts">
-    <div class="card p-3 bg-white" style="left: -325px;top: 26px;"><i class="fa fa-apple"></i>
+    <div class="card p-3 bg-white"style="left: 241px;top: 393px;"><i class="fa fa-apple"></i>
+
+     
         <div class="about-product text-center mt-2"><img src="../Gp/assets/processor/7122uH4-hfL._AC_SL1121_-1000x1000.png" width="300">
             <div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+</div> 
+      
                 <h4>AMD Ryzen 9 3950X </h4>
          
             </div>
         </div>
+        
         <div class="stats mt-2">
             <div class="d-flex justify-content-between p-price"><span>16-Core 3.5 GHz Socket AM4 105W Desktop Processor</span>
         </div>
         <div class="d-flex justify-content-between total font-weight-bold mt-4"><span>price</span><span>13,000 EGP </span></div>
     </div>
   </div>
-  <div class="card p-3 bg-white" style="left: -325px;top: 26px;"><i class="fa fa-apple"></i>
-    <div class="about-product text-center mt-2"><img src="../Gp/assets/processor/7122uH4-hfL._AC_SL1121_-1000x1000.png" width="300">
+  <div class="card p-3 bg-white" style="left: -325px;top: -210px;"><i class="fa fa-apple"></i>
+    
+    <div class="about-product text-center mt-2"><img src="../Gp/assets/processor/7122uH4-hfL._AC_SL1121_-1000x1000.png" width="200px">
         <div>
             <h4>AMD Ryzen 9 3950X </h4>
-     
+
         </div>
+
     </div>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
+
     <div class="stats mt-2">
+     
+
         <div class="d-flex justify-content-between p-price"><span>16-Core 3.5 GHz Socket AM4 105W Desktop Processor</span>
+          <div class="container">
+            <div class="row">
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                        Launch demo modal
+                      </button>
+                      
+                      <!-- Modal -->
+                      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                              <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                            </div>
+                            <div class="modal-body">
+                              ...
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+          </div>
     </div>
     <div class="d-flex justify-content-between total font-weight-bold mt-4"><span>price</span><span>13,000 EGP </span></div>
-    <div class="d-flex justify-content-between total font-weight-bold mt-4"><span>price</span><span>12,000 EGP </span></div>
+    <div class="d-flex justify-content-between total font-weight-bold mt-4"><span>price</span><span>12,000 EGP </span>
+      
+    </div>
+
 </div>
 </div>
 </section>
@@ -114,7 +165,11 @@
     </div>
   
 </div>
+
 </form>
+
+</div>
+
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
